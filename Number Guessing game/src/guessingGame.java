@@ -30,6 +30,7 @@ public class guessingGame
 		
 				public static void greetPlayer()
 				{
+					System.out.println("HELLO");
 					System.out.println("What is your name?");
 					String name = userInput.nextLine();
 					System.out.println("Hello " + name);
